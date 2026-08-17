@@ -1,34 +1,6 @@
-# ── skyra-vision-service .gitignore ──────────────────────────────────────────
-
-# Python environment
 venv/
+.env
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.Python
-
-# Build artifacts
-dist/
-build/
-*.egg-info/
-
-# Secrets and credentials
-.env
-*.key
-*.pem
-
-# Captured screenshots (should NEVER exist, but just in case)
-*.png
-*.jpg
-*.jpeg
-*.tmp
-*.bmp
-
-# Logs
-logs/
 *.log
-
-# OS specific
-.DS_Store
-Thumbs.db
+screenshot.png
